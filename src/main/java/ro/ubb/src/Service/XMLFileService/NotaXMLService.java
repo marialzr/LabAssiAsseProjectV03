@@ -1,11 +1,15 @@
-package Service.XMLFileService;
+package ro.ubb.src.Service.XMLFileService;
 
-import Domain.*;
-import Repository.XMLFileRepository.NotaXMLRepo;
-import java.io.*;
+import ro.ubb.src.Domain.Nota;
+import ro.ubb.src.Domain.TemaLab;
+import ro.ubb.src.Repository.XMLFileRepository.NotaXMLRepo;
+
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.time.LocalDateTime;
 
-public class NotaXMLService extends AbstractXMLService<Integer,Nota>{
+public class NotaXMLService extends AbstractXMLService<Integer, Nota>{
     private NotaXMLRepo xmlrepo;
 
     public NotaXMLService(NotaXMLRepo xmlrepo)  {

@@ -1,13 +1,13 @@
-package Repository.XMLFileRepository;
+package ro.ubb.src.Repository.XMLFileRepository;
 
-import Domain.HasId;
-import Exceptions.ValidatorException;
-import Repository.MemoryRepository.AbstractCrudRepo;
-import Validator.IValidator;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import ro.ubb.src.Domain.HasId;
+import ro.ubb.src.Exceptions.ValidatorException;
+import ro.ubb.src.Repository.MemoryRepository.AbstractCrudRepo;
+import ro.ubb.src.Validator.IValidator;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.Transformer;

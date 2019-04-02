@@ -1,4 +1,4 @@
-package Exceptions;
+package ro.ubb.src.Exceptions;
 
 
 public class ServiceException extends RuntimeException {

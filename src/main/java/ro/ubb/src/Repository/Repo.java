@@ -1,5 +1,7 @@
-package Repository;
-import Exceptions.ValidatorException;
+package ro.ubb.src.Repository;
+
+import ro.ubb.src.Exceptions.ValidatorException;
+
 /**
  * CRUD operations repository interface
  * @param <ID> - type E must have an attribute of type ID

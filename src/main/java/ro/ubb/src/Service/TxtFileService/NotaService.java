@@ -1,8 +1,9 @@
-package Service.TxtFileService;
-import Domain.*;
-import Repository.TxtFileRepository.NotaFileRepo;
+package ro.ubb.src.Service.TxtFileService;
 
-public class NotaService extends AbstractService<Integer,Nota> {
+import ro.ubb.src.Domain.Nota;
+import ro.ubb.src.Repository.TxtFileRepository.NotaFileRepo;
+
+public class NotaService extends AbstractService<Integer, Nota> {
     public NotaService(NotaFileRepo notaRepo){
         super(notaRepo);
     }

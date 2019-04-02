@@ -1,8 +1,9 @@
-package Service.TxtFileService;
-import Domain.*;
-import Repository.TxtFileRepository.StudentFileRepo;
+package ro.ubb.src.Service.TxtFileService;
 
-public class StudentService extends AbstractService<String,Student> {
+import ro.ubb.src.Domain.Student;
+import ro.ubb.src.Repository.TxtFileRepository.StudentFileRepo;
+
+public class StudentService extends AbstractService<String, Student> {
     //StudentFileRepo stdRepo;
     public StudentService(StudentFileRepo stdRepo){
         super(stdRepo);

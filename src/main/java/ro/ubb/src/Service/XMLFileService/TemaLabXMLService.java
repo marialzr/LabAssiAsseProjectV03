@@ -1,10 +1,10 @@
-package Service.XMLFileService;
+package ro.ubb.src.Service.XMLFileService;
 
-import Domain.TemaLab;
-import Exceptions.ValidatorException;
-import Repository.XMLFileRepository.TemaLabXMLRepo;
+import ro.ubb.src.Domain.TemaLab;
+import ro.ubb.src.Exceptions.ValidatorException;
+import ro.ubb.src.Repository.XMLFileRepository.TemaLabXMLRepo;
 
-public class TemaLabXMLService extends AbstractXMLService<Integer,TemaLab>{
+public class TemaLabXMLService extends AbstractXMLService<Integer, TemaLab>{
     private TemaLabXMLRepo xmlrepo;
 
     public TemaLabXMLService(TemaLabXMLRepo xmlrepo)  {

@@ -1,10 +1,12 @@
-package Repository.MemoryRepository;
+package ro.ubb.src.Repository.MemoryRepository;
+import ro.ubb.src.Domain.HasId;
+import ro.ubb.src.Exceptions.ValidatorException;
+import ro.ubb.src.Repository.Repo;
+import ro.ubb.src.Validator.IValidator;
 
-import Domain.HasId;
-import Repository.Repo;
-import Validator.IValidator;
-import Exceptions.ValidatorException;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+
 public abstract class AbstractCrudRepo<ID,E extends HasId<ID>> implements Repo<ID,E> {
     Map<ID,E> entityes;
     IValidator<E> validator;

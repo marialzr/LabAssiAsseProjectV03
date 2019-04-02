@@ -1,7 +1,8 @@
-package Service.XMLFileService;
-import Domain.*;
-import Exceptions.ValidatorException;
-import Repository.XMLFileRepository.AbstractXMLRepo;
+package ro.ubb.src.Service.XMLFileService;
+
+import ro.ubb.src.Domain.HasId;
+import ro.ubb.src.Exceptions.ValidatorException;
+import ro.ubb.src.Repository.XMLFileRepository.AbstractXMLRepo;
 
 public abstract class AbstractXMLService<ID,E extends HasId<ID>> {
     private AbstractXMLRepo xmlrepo;

@@ -1,9 +1,9 @@
-package Repository.XMLFileRepository;
+package ro.ubb.src.Repository.XMLFileRepository;
 
-import Domain.TemaLab;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import Validator.TemaLabValidator;
+import ro.ubb.src.Domain.TemaLab;
+import ro.ubb.src.Validator.TemaLabValidator;
 
 
 public class TemaLabXMLRepo extends AbstractXMLRepo<Integer, TemaLab> {

@@ -1,9 +1,9 @@
-package Service.TxtFileService;
+package ro.ubb.src.Service.TxtFileService;
 
-import Domain.HasId;
-import Exceptions.ValidatorException;
-import Repository.TxtFileRepository.AbstractFileRepository;
-import Validator.IValidator;
+import ro.ubb.src.Domain.HasId;
+import ro.ubb.src.Exceptions.ValidatorException;
+import ro.ubb.src.Repository.TxtFileRepository.AbstractFileRepository;
+import ro.ubb.src.Validator.IValidator;
 
 public abstract  class AbstractService <ID,E extends HasId<ID>> {
     private IValidator<E> v;

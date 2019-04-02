@@ -1,9 +1,9 @@
-package Repository.XMLFileRepository;
+package ro.ubb.src.Repository.XMLFileRepository;
 
-import Domain.Nota;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import Validator.NotaValidator;
+import ro.ubb.src.Domain.Nota;
+import ro.ubb.src.Validator.NotaValidator;
 
 import java.time.LocalDateTime;
 

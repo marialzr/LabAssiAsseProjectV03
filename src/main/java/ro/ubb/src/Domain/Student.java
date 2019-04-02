@@ -1,4 +1,4 @@
-package Domain;
+package ro.ubb.src.Domain;
 
 public class Student implements HasId<String> {
     private  String id;

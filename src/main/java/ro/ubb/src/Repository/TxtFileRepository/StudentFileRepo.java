@@ -1,10 +1,9 @@
-package Repository.TxtFileRepository;
+package ro.ubb.src.Repository.TxtFileRepository;
+import ro.ubb.src.Domain.HasId;
+import ro.ubb.src.Domain.Student;
+import ro.ubb.src.Validator.StudentValidator;
 
-import Domain.HasId;
-import Domain.Student;
-import Validator.StudentValidator;
-
-import java.io.*;
+import java.io.IOException;
 
 public class StudentFileRepo extends AbstractFileRepository {
     public StudentFileRepo(String filename, StudentValidator val) throws IOException {

@@ -1,10 +1,10 @@
-package Repository.TxtFileRepository;
+package ro.ubb.src.Repository.TxtFileRepository;
 
-import Domain.HasId;
-import Domain.TemaLab;
-import Validator.TemaLabValidator;
+import ro.ubb.src.Domain.HasId;
+import ro.ubb.src.Domain.TemaLab;
+import ro.ubb.src.Validator.TemaLabValidator;
 
-import java.io.*;
+import java.io.IOException;
 
 public class TemaLabFileRepo extends AbstractFileRepository {
     public TemaLabFileRepo(String filename, TemaLabValidator val) throws IOException {

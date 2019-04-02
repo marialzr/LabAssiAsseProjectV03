@@ -1,9 +1,9 @@
-package Service.XMLFileService;
+package ro.ubb.src.Service.XMLFileService;
 
-import Domain.Student;
-import Repository.XMLFileRepository.StudentXMLRepo;
+import ro.ubb.src.Domain.Student;
+import ro.ubb.src.Repository.XMLFileRepository.StudentXMLRepo;
 
-public class StudentXMLService extends AbstractXMLService<String,Student>{
+public class StudentXMLService extends AbstractXMLService<String, Student>{
     private StudentXMLRepo xmlrepo;
 
     public StudentXMLService(StudentXMLRepo xmlrepo)  {

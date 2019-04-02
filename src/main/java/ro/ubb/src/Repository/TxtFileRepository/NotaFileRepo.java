@@ -1,10 +1,10 @@
-package Repository.TxtFileRepository;
+package ro.ubb.src.Repository.TxtFileRepository;
 
-import Domain.HasId;
-import Domain.Nota;
-import Validator.NotaValidator;
+import ro.ubb.src.Domain.HasId;
+import ro.ubb.src.Domain.Nota;
+import ro.ubb.src.Validator.NotaValidator;
 
-import java.io.*;
+import java.io.IOException;
 import java.time.LocalDateTime;
 
 public class NotaFileRepo extends AbstractFileRepository {

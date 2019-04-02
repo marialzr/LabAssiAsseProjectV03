@@ -1,4 +1,4 @@
-package Domain;
+package ro.ubb.src.Domain;
 
 import java.time.LocalDateTime;
 

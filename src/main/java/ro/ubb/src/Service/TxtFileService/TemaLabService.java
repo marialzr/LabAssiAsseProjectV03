@@ -1,9 +1,10 @@
-package Service.TxtFileService;
-import Exceptions.ValidatorException;
-import Domain.*;
-import Repository.TxtFileRepository.TemaLabFileRepo;
+package ro.ubb.src.Service.TxtFileService;
 
-public class TemaLabService extends AbstractService<Integer,TemaLab> {
+import ro.ubb.src.Domain.TemaLab;
+import ro.ubb.src.Exceptions.ValidatorException;
+import ro.ubb.src.Repository.TxtFileRepository.TemaLabFileRepo;
+
+public class TemaLabService extends AbstractService<Integer, TemaLab> {
     //StudentFileRepo stdRepo;
     public TemaLabService(TemaLabFileRepo tmLbRepo){
         super(tmLbRepo);

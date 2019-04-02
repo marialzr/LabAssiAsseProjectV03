@@ -1,7 +1,7 @@
-package Validator;
-import Exceptions.ValidatorException;
-import Domain.TemaLab;
-import Validator.IValidator;
+package ro.ubb.src.Validator;
+
+import ro.ubb.src.Domain.TemaLab;
+import ro.ubb.src.Exceptions.ValidatorException;
 
 public class TemaLabValidator implements IValidator<TemaLab> {
 

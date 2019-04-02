@@ -1,8 +1,9 @@
-package Repository.MemoryRepository;
-import Validator.IValidator;
-import Domain.TemaLab;
+package ro.ubb.src.Repository.MemoryRepository;
 
-public class TemaLabRepo extends AbstractCrudRepo<Integer,TemaLab> {
+import ro.ubb.src.Domain.TemaLab;
+import ro.ubb.src.Validator.IValidator;
+
+public class TemaLabRepo extends AbstractCrudRepo<Integer, TemaLab> {
 
     public TemaLabRepo(IValidator<TemaLab> v){
 

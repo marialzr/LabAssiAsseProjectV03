@@ -1,12 +1,14 @@
-package UI;
+package ro.ubb.src.UI;
+
+import ro.ubb.src.Exceptions.ServiceException;
+import ro.ubb.src.Exceptions.ValidatorException;
+import ro.ubb.src.Service.XMLFileService.AbstractXMLService;
+import ro.ubb.src.Service.XMLFileService.NotaXMLService;
+import ro.ubb.src.Service.XMLFileService.StudentXMLService;
+import ro.ubb.src.Service.XMLFileService.TemaLabXMLService;
 
 import java.io.IOException;
 import java.util.Scanner;
-import Exceptions.*;
-import Service.XMLFileService.AbstractXMLService;
-import Service.XMLFileService.NotaXMLService;
-import Service.XMLFileService.StudentXMLService;
-import Service.XMLFileService.TemaLabXMLService;
 
 public class ui {
     StudentXMLService stdSrv;

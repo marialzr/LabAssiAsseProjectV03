@@ -1,7 +1,7 @@
-package Validator;
+package ro.ubb.src.Validator;
 
-import Domain.Nota;
-import Exceptions.ValidatorException;
+import ro.ubb.src.Domain.Nota;
+import ro.ubb.src.Exceptions.ValidatorException;
 
 public class NotaValidator implements IValidator<Nota> {
 

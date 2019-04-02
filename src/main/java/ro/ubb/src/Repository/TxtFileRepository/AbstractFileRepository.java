@@ -1,17 +1,17 @@
-package Repository.TxtFileRepository;
+package ro.ubb.src.Repository.TxtFileRepository;
 
-import Domain.HasId;
-import Repository.MemoryRepository.AbstractCrudRepo;
-import Validator.IValidator;
-import Exceptions.ValidatorException;
-import Exceptions.RepositoryException;
-import java.io.IOException;
+import ro.ubb.src.Domain.HasId;
+import ro.ubb.src.Exceptions.RepositoryException;
+import ro.ubb.src.Exceptions.ValidatorException;
+import ro.ubb.src.Repository.MemoryRepository.AbstractCrudRepo;
+import ro.ubb.src.Validator.IValidator;
+
 import java.io.*;
 
 public abstract class AbstractFileRepository<ID,E extends HasId<ID>> extends AbstractCrudRepo<ID,E> {
     private String filename;
 
-    public AbstractFileRepository(IValidator v,String filename) {
+    public AbstractFileRepository(IValidator v, String filename) {
         super(v);
         this.filename=filename;
         //readFromFile();

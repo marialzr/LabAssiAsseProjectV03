@@ -1,6 +1,4 @@
-package Domain;
-
-import Domain.HasId;
+package ro.ubb.src.Domain;
 
 public class TemaLab implements HasId<Integer> {
     private int nr;

@@ -1,4 +1,4 @@
-package Domain;
+package ro.ubb.src.Domain;
 
 public interface HasId<ID> {
     ID getId();

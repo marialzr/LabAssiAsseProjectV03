@@ -1,6 +1,8 @@
-package Validator;
-import Exceptions.ValidatorException;
-import Domain.Student;
+package ro.ubb.src.Validator;
+
+
+import ro.ubb.src.Domain.Student;
+import ro.ubb.src.Exceptions.ValidatorException;
 
 public class StudentValidator implements IValidator<Student> {
 

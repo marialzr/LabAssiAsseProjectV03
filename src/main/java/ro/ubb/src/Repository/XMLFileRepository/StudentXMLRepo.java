@@ -1,9 +1,9 @@
-package Repository.XMLFileRepository;
+package ro.ubb.src.Repository.XMLFileRepository;
 
-import Domain.Student;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import Validator.StudentValidator;
+import ro.ubb.src.Domain.Student;
+import ro.ubb.src.Validator.StudentValidator;
 
 
 public class StudentXMLRepo extends AbstractXMLRepo<String, Student> {
