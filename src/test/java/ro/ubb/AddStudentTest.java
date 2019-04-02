@@ -22,10 +22,10 @@ public class AddStudentTest extends TestCase {
         stsrv=new StudentXMLService(strepo);
 
         id = "1";
-        nume = "nume";
-        grupa = "1";
-        email = "email@email.com";
-        prof = "prof";
+        nume = "Ema";
+        grupa = "934";
+        email = "ematurcu@gmail.com";
+        prof = "Rares Boian";
     }
 
     @Test
@@ -38,7 +38,7 @@ public class AddStudentTest extends TestCase {
     }
 
     @Test(expected = ValidatorException.class)
-    public void testAddStudentId() {
+    public void testWrongGrupa() {
         grupa = "abc";
         int sizeBefore = stsrv.getSize();
         String params[] ={id, nume, grupa, email, prof};
@@ -47,4 +47,5 @@ public class AddStudentTest extends TestCase {
 
         assertEquals(sizeBefore, stsrv.getSize());
     }
+
 }
