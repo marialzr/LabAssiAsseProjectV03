@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54765d16-b35f-4581-8196-5dd5ef6f5e81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentiXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentiXML.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ro/ubb/AddStudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/ubb/AddStudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ro/ubb/AddStudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/ubb/TestAddStudent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/AddStudentTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestAddStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="56">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,6 +153,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ro/ubb/AddAssignmenTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ro/ubb/AddStudentTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ro/ubb/TestAddStudent.java" />
       </list>
     </option>
   </component>
@@ -165,8 +164,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="890" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1038" />
     <option name="height" value="1038" />
   </component>
@@ -380,7 +380,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554234544493" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554235864548" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -405,8 +405,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddStudentTest.testIdNotNull">
-    <configuration name="AddStudentTest.testAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestAddStudent.testAdd">
+    <configuration name="TestAddStudent.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV03" />
       <extension name="coverage">
         <pattern>
@@ -415,14 +415,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ro.ubb" />
-      <option name="MAIN_CLASS_NAME" value="ro.ubb.AddStudentTest" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestAddStudent" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAddStudent.testAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabAssiAsseProjectV03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.ubb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ro.ubb" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestAddStudent" />
       <option name="METHOD_NAME" value="testAddStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddStudentTest.testAddStudentId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddStudent.testAddStudentId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV03" />
       <extension name="coverage">
         <pattern>
@@ -431,14 +447,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ro.ubb" />
-      <option name="MAIN_CLASS_NAME" value="ro.ubb.AddStudentTest" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestAddStudent" />
       <option name="METHOD_NAME" value="testAddStudentId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddStudentTest.testIdNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddStudent.testIdNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV03" />
       <extension name="coverage">
         <pattern>
@@ -447,14 +463,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ro.ubb" />
-      <option name="MAIN_CLASS_NAME" value="ro.ubb.AddStudentTest" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestAddStudent" />
       <option name="METHOD_NAME" value="testIdNotNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddStudentTest.testValidateAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAddStudent.testValidateAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV03" />
       <extension name="coverage">
         <pattern>
@@ -463,24 +479,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ro.ubb" />
-      <option name="MAIN_CLASS_NAME" value="ro.ubb.AddStudentTest" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestAddStudent" />
       <option name="METHOD_NAME" value="testValidateAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddStudentTest.validateAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LabAssiAsseProjectV03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ro.ubb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ro.ubb" />
-      <option name="MAIN_CLASS_NAME" value="ro.ubb.AddStudentTest" />
-      <option name="METHOD_NAME" value="validateAdd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -488,11 +488,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddStudentTest.testIdNotNull" />
-        <item itemvalue="JUnit.AddStudentTest.testAddStudentId" />
-        <item itemvalue="JUnit.AddStudentTest.testAddStudent" />
-        <item itemvalue="JUnit.AddStudentTest.testValidateAdd" />
-        <item itemvalue="JUnit.AddStudentTest.validateAdd" />
+        <item itemvalue="JUnit.TestAddStudent.testAdd" />
+        <item itemvalue="JUnit.TestAddStudent.testIdNotNull" />
+        <item itemvalue="JUnit.TestAddStudent.testAddStudentId" />
+        <item itemvalue="JUnit.TestAddStudent.testAddStudent" />
+        <item itemvalue="JUnit.TestAddStudent.testValidateAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +506,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554221436568</updated>
-      <workItem from="1554221441997" duration="11784000" />
+      <workItem from="1554221441997" duration="12789000" />
     </task>
     <servers />
   </component>
@@ -534,10 +534,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11784000" />
+    <option name="totallyTimeSpent" value="12789000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="712" y="0" width="830" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -546,9 +546,9 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15324676" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22214764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3037249" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.29886687" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" />
@@ -557,7 +557,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.42351276" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37249285" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37249285" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -911,10 +911,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/AddStudentTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestAddStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="56">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

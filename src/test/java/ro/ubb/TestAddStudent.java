@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import java.util.List;
 
-public class AddStudentTest extends TestCase {
+public class TestAddStudent extends TestCase {
     private StudentXMLService stsrv;
     private String id,nume,grupa,email,prof;
 
@@ -29,7 +29,7 @@ public class AddStudentTest extends TestCase {
     }
 
     @Test
-    public void testAddStudent() throws ValidatorException {
+    public void testAdd() throws ValidatorException {
         int sizeBefore = stsrv.getSize();
         String params[] ={id, nume, grupa, email, prof};
         stsrv.add(params);
