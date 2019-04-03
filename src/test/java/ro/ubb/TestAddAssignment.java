@@ -8,7 +8,11 @@ import ro.ubb.src.Service.TxtFileService.NotaService;
 import ro.ubb.src.Service.XMLFileService.NotaXMLService;
 import ro.ubb.src.Validator.NotaValidator;
 
-public class AddAssignmenTest extends TestCase {
+import javax.xml.bind.ValidationException;
+
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
+public class TestAddAssignment extends TestCase {
     private NotaXMLService notaService;
     private String id;
     private String ids;
@@ -30,8 +34,22 @@ public class AddAssignmenTest extends TestCase {
     }
 
     @Test
-    public void validateAdd() throws ValidatorException {
+    public void testAdd() throws ValidatorException {
         String params[] ={id,ids,idt,val,data};
+        int sizeBefore = notaService.getSize();
         notaService.add(params);
+        int sizeAfter = sizeBefore + 1;
+        assertEquals(sizeAfter, notaService.getSize());
+    }
+
+    @Test(expected = ValidatorException.class)
+    public void testAddNull(){
+        id = "-1";
+        String params[] ={id,ids,idt,val,data};
+        int sizeBefore = notaService.getSize();
+
+        ValidatorException thrown = assertThrows(ValidatorException.class, () -> notaService.add(params), "Expected doThing() to throw, but it didn't");
+
+        assertEquals(sizeBefore, notaService.getSize());
     }
 }
