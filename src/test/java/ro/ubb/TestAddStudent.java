@@ -7,8 +7,6 @@ import ro.ubb.src.Repository.XMLFileRepository.StudentXMLRepo;
 import ro.ubb.src.Service.XMLFileService.StudentXMLService;
 import ro.ubb.src.Validator.StudentValidator;
 
-import javax.xml.bind.ValidationException;
-
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class TestAddStudent extends TestCase {
@@ -37,7 +35,7 @@ public class TestAddStudent extends TestCase {
         assertEquals(sizeAfter, stsrv.getSize());
     }
 
-    @Test(expected = ValidationException.class)
+    @Test(expected =  ValidatorException.class)
     public void testAddStudentIdNull() {
         id = null;
         int sizeBefore = stsrv.getSize();

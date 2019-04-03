@@ -3,7 +3,41 @@
   <component name="ChangeListManager">
     <list default="true" id="54765d16-b35f-4581-8196-5dd5ef6f5e81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Domain/HasId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Domain/HasId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Domain/Nota.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Domain/Nota.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Domain/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Domain/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Domain/TemaLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Domain/TemaLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Exceptions/RepositoryException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Exceptions/RepositoryException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Exceptions/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Exceptions/ValidatorException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Exceptions/ValidatorException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/MemoryRepository/AbstractCrudRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/MemoryRepository/AbstractCrudRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/MemoryRepository/NotaRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/MemoryRepository/StudentRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/MemoryRepository/TemaLabRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/MemoryRepository/TemaLabRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/Repo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/Repo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/TxtFileRepository/AbstractFileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/TxtFileRepository/AbstractFileRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/TxtFileRepository/NotaFileRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/TxtFileRepository/StudentFileRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/TxtFileRepository/StudentFileRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/TxtFileRepository/TemaLabFileRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/TxtFileRepository/TemaLabFileRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/XMLFileRepository/AbstractXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/XMLFileRepository/NotaXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/XMLFileRepository/StudentXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Repository/XMLFileRepository/TemaLabXMLRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Service/TxtFileService/AbstractService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Service/TxtFileService/AbstractService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Service/TxtFileService/NotaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Service/TxtFileService/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Service/TxtFileService/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Service/TxtFileService/TemaLabService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Service/TxtFileService/TemaLabService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Service/XMLFileService/AbstractXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Service/XMLFileService/NotaXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Service/XMLFileService/StudentXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Service/XMLFileService/TemaLabXMLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/UI/ui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Validator/IValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Validator/IValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Validator/NotaValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Validator/NotaValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Validator/StudentValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Validator/StudentValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/Validator/TemaLabValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/ubb/src/Validator/TemaLabValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/ubb/src/testcase/CrudRepoTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestAddStudent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,11 +61,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+            <state relative-caret-position="240">
+              <caret line="153" selection-start-line="153" selection-end-line="153" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Repository/XMLFileRepository/AbstractXMLRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,22 +107,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Service/XMLFileService/AbstractXMLService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/NotaValidator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/StudentValidator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -425,7 +459,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554273580452" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554273732942" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -552,14 +586,19 @@
       <option name="presentableId" value="Default" />
       <updated>1554221436568</updated>
       <workItem from="1554221441997" duration="14466000" />
-      <workItem from="1554268324850" duration="3918000" />
+      <workItem from="1554268324850" duration="4194000" />
     </task>
+    <task id="LOCAL-00001" summary="update conf">
+      <created>1554273604748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554273604748</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAddStudent_testAddStudentIdNull - 2019.04.02 at 23h 26m 25s.xml">
-      <configuration name="TestAddStudent.testAddStudentIdNull" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestAddAssignment_validateAdd - 2019.04.03 at 08h 14m 35s.xml">
       <configuration name="TestAddAssignment.validateAdd" configurationId="JUnit" />
     </history-entry>
@@ -587,15 +626,18 @@
     <history-entry file="TestAddStudent_testAddStudentWrongGrupa - 2019.04.03 at 08h 40m 26s.xml">
       <configuration name="TestAddStudent.testAddStudentWrongGrupa" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestAddStudent_testAddStudentWrongGrupa - 2019.04.03 at 09h 36m 42s.xml">
+      <configuration name="TestAddStudent.testAddStudentWrongGrupa" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18384000" />
+    <option name="totallyTimeSpent" value="18660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -605,7 +647,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3569405" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3569405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -613,7 +655,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.29886687" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.42351276" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.42351276" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -631,6 +673,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="update conf" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LabAssiAsseProjectV03.iml">
@@ -753,16 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Repository/XMLFileRepository/AbstractXMLRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="81" column="32" lean-forward="true" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Repository/MemoryRepository/NotaRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -855,7 +891,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Service/XMLFileService/AbstractXMLService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -865,7 +901,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/StudentValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -924,7 +960,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/NotaValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -944,7 +980,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestAddStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -953,8 +989,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+        <state relative-caret-position="240">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Repository/XMLFileRepository/AbstractXMLRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

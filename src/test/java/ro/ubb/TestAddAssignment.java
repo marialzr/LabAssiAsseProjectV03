@@ -8,7 +8,6 @@ import ro.ubb.src.Service.TxtFileService.NotaService;
 import ro.ubb.src.Service.XMLFileService.NotaXMLService;
 import ro.ubb.src.Validator.NotaValidator;
 
-import javax.xml.bind.ValidationException;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
