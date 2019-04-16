@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54765d16-b35f-4581-8196-5dd5ef6f5e81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ro/ubb/TestAddAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/ubb/TestAddAssignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ro/ubb/TestAddStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/ubb/TestAddStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ro/ubb/TestAddAssignment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ro/ubb/TestAddAssignment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ro/ubb/TestAddStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ro/ubb/TestAddStudent.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,10 +19,39 @@
         <state>
           <leaf>
             <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestAddAssignment.java">
+              <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/TemaLabValidator.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="773">
-                    <caret line="98" column="5" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
+                  <state relative-caret-position="323">
+                    <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Domain/TemaLab.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="34">
+                    <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestAddStudent.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="1043">
+                    <caret line="69" selection-start-line="69" selection-end-line="69" />
                     <folding>
                       <element signature="imports" expanded="true" />
                     </folding>
@@ -41,21 +67,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestAddStudent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Service/TxtFileService/StudentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="85">
               <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Service/TxtFileService/NotaService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="68">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -91,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Repository/XMLFileRepository/NotaXMLRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="136">
               <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -100,11 +114,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/NotaValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="119">
+              <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestTemaLab.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="116" column="32" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,10 +139,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/TemaLabValidator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="54" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="54" />
+            <state relative-caret-position="240">
+              <caret line="22" column="28" selection-start-line="20" selection-start-column="8" selection-end-line="28" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,10 +151,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Domain/TemaLab.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestAddAssignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="97" column="5" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="97" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,6 +201,7 @@
       <find>add</find>
       <find>temaVali</find>
       <find>AddAssi</find>
+      <find>params</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -206,7 +236,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ro/ubb/src/UI/ui.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/IValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/NotaValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/TemaLabValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/StudentValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/ubb/src/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/ro/ubb/AddAssignmenTest.java" />
@@ -215,6 +244,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ro/ubb/TestAddStudent.java" />
         <option value="$PROJECT_DIR$/src/test/java/ro/ubb/TestAddAssignment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/TemaLabValidator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ro/ubb/TestTemaLab.java" />
       </list>
     </option>
   </component>
@@ -226,9 +257,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
+    <option name="x" value="72" />
+    <option name="y" value="-13" />
+    <option name="width" value="1525" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -236,7 +268,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -435,12 +466,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555433247397" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555444719974" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -465,8 +497,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestAddAssignment">
-    <configuration name="TestAddAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestTemaLab">
+    <configuration name="TestTemaLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV03" />
       <extension name="coverage">
         <pattern>
@@ -475,13 +507,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ro.ubb" />
-      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestAddAssignment" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestTemaLab" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddAssignment.testStudentIdNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTemaLab.testDEscriptionEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV03" />
       <extension name="coverage">
         <pattern>
@@ -490,14 +522,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ro.ubb" />
-      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestAddAssignment" />
-      <option name="METHOD_NAME" value="testStudentIdNull" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestTemaLab" />
+      <option name="METHOD_NAME" value="testDEscriptionEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddAssignment.testTemaLabIdLessThanZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTemaLab.testDEscriptionNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV03" />
       <extension name="coverage">
         <pattern>
@@ -506,14 +538,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ro.ubb" />
-      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestAddAssignment" />
-      <option name="METHOD_NAME" value="testTemaLabIdLessThanZero" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestTemaLab" />
+      <option name="METHOD_NAME" value="testDEscriptionNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddAssignment.testValoareGreaterThanTen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTemaLab.testSaptamanaPredarii" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV03" />
       <extension name="coverage">
         <pattern>
@@ -522,14 +554,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ro.ubb" />
-      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestAddAssignment" />
-      <option name="METHOD_NAME" value="testValoareGreaterThanTen" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestTemaLab" />
+      <option name="METHOD_NAME" value="testSaptamanaPredarii" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddAssignment.testValoareLessThanZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTemaLab.testSaptamanaPredariiGreater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV03" />
       <extension name="coverage">
         <pattern>
@@ -538,8 +570,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ro.ubb" />
-      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestAddAssignment" />
-      <option name="METHOD_NAME" value="testValoareLessThanZero" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestTemaLab" />
+      <option name="METHOD_NAME" value="testSaptamanaPredariiGreater" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -547,11 +579,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestAddAssignment" />
-        <item itemvalue="JUnit.TestAddAssignment.testValoareGreaterThanTen" />
-        <item itemvalue="JUnit.TestAddAssignment.testValoareLessThanZero" />
-        <item itemvalue="JUnit.TestAddAssignment.testTemaLabIdLessThanZero" />
-        <item itemvalue="JUnit.TestAddAssignment.testStudentIdNull" />
+        <item itemvalue="JUnit.TestTemaLab" />
+        <item itemvalue="JUnit.TestTemaLab.testSaptamanaPredariiGreater" />
+        <item itemvalue="JUnit.TestTemaLab.testSaptamanaPredarii" />
+        <item itemvalue="JUnit.TestTemaLab.testDEscriptionNull" />
+        <item itemvalue="JUnit.TestTemaLab.testDEscriptionEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -568,7 +600,9 @@
       <workItem from="1554221441997" duration="14466000" />
       <workItem from="1554268324850" duration="5373000" />
       <workItem from="1554310630549" duration="69000" />
-      <workItem from="1555431175502" duration="1945000" />
+      <workItem from="1555431175502" duration="2191000" />
+      <workItem from="1555433446825" duration="72000" />
+      <workItem from="1555443106427" duration="1608000" />
     </task>
     <task id="LOCAL-00001" summary="update conf">
       <created>1554273604748</created>
@@ -598,49 +632,56 @@
       <option name="project" value="LOCAL" />
       <updated>1554274322370</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add tests for add nota">
+      <created>1555433284506</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555433284506</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAddAssignment_testId - 2019.04.16 at 19h 34m 49s.xml">
-      <configuration name="TestAddAssignment.testId" configurationId="JUnit" />
+    <history-entry file="TestTemaLab_testAddTema - 2019.04.16 at 22h 51m 20s.xml">
+      <configuration name="TestTemaLab.testAddTema" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment_testIdEmpty - 2019.04.16 at 19h 35m 44s.xml">
-      <configuration name="TestAddAssignment.testIdEmpty" configurationId="JUnit" />
+    <history-entry file="TestTemaLab - 2019.04.16 at 22h 52m 15s.xml">
+      <configuration name="TestTemaLab" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment_testIdEmpty - 2019.04.16 at 19h 36m 18s.xml">
-      <configuration name="TestAddAssignment.testIdEmpty" configurationId="JUnit" />
+    <history-entry file="TestTemaLab_testStudentIdEmpty - 2019.04.16 at 22h 52m 44s.xml">
+      <configuration name="TestTemaLab.testStudentIdEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment_testStudentIdEmpty - 2019.04.16 at 19h 37m 23s.xml">
-      <configuration name="TestAddAssignment.testStudentIdEmpty" configurationId="JUnit" />
+    <history-entry file="TestTemaLab_testStudentIdEmpty - 2019.04.16 at 22h 54m 38s.xml">
+      <configuration name="TestTemaLab.testStudentIdEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment_testStudentIdEmpty - 2019.04.16 at 19h 41m 55s.xml">
-      <configuration name="TestAddAssignment.testStudentIdEmpty" configurationId="JUnit" />
+    <history-entry file="TestTemaLab_testStudentIdNull - 2019.04.16 at 22h 55m 07s.xml">
+      <configuration name="TestTemaLab.testStudentIdNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment_testStudentIdEmpty - 2019.04.16 at 19h 42m 28s.xml">
-      <configuration name="TestAddAssignment.testStudentIdEmpty" configurationId="JUnit" />
+    <history-entry file="TestTemaLab_testDEscriptionEmpty - 2019.04.16 at 22h 55m 54s.xml">
+      <configuration name="TestTemaLab.testDEscriptionEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment_testStudentIdNull - 2019.04.16 at 19h 43m 16s.xml">
-      <configuration name="TestAddAssignment.testStudentIdNull" configurationId="JUnit" />
+    <history-entry file="TestTemaLab_testDEscriptionEmpty - 2019.04.16 at 22h 56m 25s.xml">
+      <configuration name="TestTemaLab.testDEscriptionEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment_testTemaLabIdLessThanZero - 2019.04.16 at 19h 44m 28s.xml">
-      <configuration name="TestAddAssignment.testTemaLabIdLessThanZero" configurationId="JUnit" />
+    <history-entry file="TestTemaLab_testDEscriptionNull - 2019.04.16 at 22h 56m 46s.xml">
+      <configuration name="TestTemaLab.testDEscriptionNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment_testValoareLessThanZero - 2019.04.16 at 19h 44m 58s.xml">
-      <configuration name="TestAddAssignment.testValoareLessThanZero" configurationId="JUnit" />
+    <history-entry file="TestTemaLab_testSaptamanaPredarii - 2019.04.16 at 22h 57m 35s.xml">
+      <configuration name="TestTemaLab.testSaptamanaPredarii" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAddAssignment_testValoareGreaterThanTen - 2019.04.16 at 19h 45m 32s.xml">
-      <configuration name="TestAddAssignment.testValoareGreaterThanTen" configurationId="JUnit" />
+    <history-entry file="TestTemaLab_testSaptamanaPredariiGreater - 2019.04.16 at 22h 58m 06s.xml">
+      <configuration name="TestTemaLab.testSaptamanaPredariiGreater" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21853000" />
+    <option name="totallyTimeSpent" value="23779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28993288" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21543624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -650,7 +691,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49858356" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17705382" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -658,10 +699,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.29886687" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.42351276" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.19971672" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32822758" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -680,7 +721,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update conf" />
     <MESSAGE value="1.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.8" />
+    <MESSAGE value="Add tests for add nota" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tests for add nota" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LabAssiAsseProjectV03.iml">
@@ -821,16 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="28" selection-start-line="20" selection-start-column="8" selection-end-line="28" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Service/XMLFileService/TemaLabXMLService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -910,16 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Service/TxtFileService/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Service/TxtFileService/AbstractService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -930,10 +952,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Domain/TemaLab.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Service/TxtFileService/NotaService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Repository/XMLFileRepository/NotaXMLRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -947,10 +982,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Repository/XMLFileRepository/NotaXMLRepo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/NotaValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="119">
+          <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -959,8 +994,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/TemaLabValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="54" />
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Domain/TemaLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Service/TxtFileService/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -969,28 +1021,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestAddStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Service/TxtFileService/NotaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/NotaValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="1043">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -999,8 +1031,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestAddAssignment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="98" column="5" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="97" column="5" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="97" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ubb/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="28" selection-start-line="20" selection-start-column="8" selection-end-line="28" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestTemaLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="116" column="32" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
