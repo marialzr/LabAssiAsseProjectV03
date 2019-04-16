@@ -35,12 +35,12 @@ public class TestAddStudent extends TestCase {
         assertEquals(sizeAfter, stsrv.getSize());
     }
 
-    @Test(expected =  ValidatorException.class)
-    public void testAddStudentIdNull() {
+    @Test(expected =  NullPointerException.class)
+    public void testAddStudentIdNull() throws ValidatorException {
         id = null;
         int sizeBefore = stsrv.getSize();
         String params[] ={id, nume, grupa, email, prof};
-        ValidatorException thrown = assertThrows(ValidatorException.class, () -> stsrv.add(params), "Expected doThing() to throw, but it didn't");
+        NullPointerException thrown = assertThrows(NullPointerException.class, () -> stsrv.add(params), "Expected doThing() to throw, but it didn't");
 
         assertEquals(sizeBefore, stsrv.getSize());
     }
@@ -76,13 +76,13 @@ public class TestAddStudent extends TestCase {
     }
 
     @Test
-    public void testAddStudentIntegerGrupa() {
+    public void testAddStudentIntegerGrupa() throws ValidatorException {
         grupa = "934";
         int sizeBefore = stsrv.getSize();
         String params[] ={id, nume, grupa, email, prof};
-        ValidatorException thrown = assertThrows(ValidatorException.class, () -> stsrv.add(params), "Expected doThing() to throw, but it didn't");
-
-        assertEquals(sizeBefore, stsrv.getSize());
+        stsrv.add(params);
+        int sizeAfter = sizeBefore + 1;
+        assertEquals(sizeAfter, stsrv.getSize());
     }
 
     @Test(expected = ValidatorException.class)
@@ -115,14 +115,15 @@ public class TestAddStudent extends TestCase {
         assertEquals(sizeAfter, stsrv.getSize());
     }
 
-    @Test(expected = ValidatorException.class)
-    public void testAddStudentIndrumatorNull() {
+    @Test
+    public void testAddStudentIndrumatorNull() throws ValidatorException {
         prof = null;
         int sizeBefore = stsrv.getSize();
         String params[] ={id, nume, grupa, email, prof};
-        ValidatorException thrown = assertThrows(ValidatorException.class, () -> stsrv.add(params), "Expected doThing() to throw, but it didn't");
 
-        assertEquals(sizeBefore, stsrv.getSize());
+        stsrv.add(params);
+
+        assertEquals(sizeBefore+1, stsrv.getSize());
     }
 
     @Test

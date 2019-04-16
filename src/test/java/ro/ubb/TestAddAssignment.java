@@ -4,7 +4,6 @@ import junit.framework.TestCase;
 import org.junit.Test;
 import ro.ubb.src.Exceptions.ValidatorException;
 import ro.ubb.src.Repository.XMLFileRepository.NotaXMLRepo;
-import ro.ubb.src.Service.TxtFileService.NotaService;
 import ro.ubb.src.Service.XMLFileService.NotaXMLService;
 import ro.ubb.src.Validator.NotaValidator;
 
@@ -33,7 +32,7 @@ public class TestAddAssignment extends TestCase {
     }
 
     @Test
-    public void testAdd() throws ValidatorException {
+    public void testId() throws ValidatorException {
         String params[] ={id,ids,idt,val,data};
         int sizeBefore = notaService.getSize();
         notaService.add(params);
@@ -42,8 +41,54 @@ public class TestAddAssignment extends TestCase {
     }
 
     @Test(expected = ValidatorException.class)
-    public void testAddNull(){
+    public void testIdLessThanZero(){
         id = "-1";
+        String params[] ={id,ids,idt,val,data};
+        int sizeBefore = notaService.getSize();
+
+        ValidatorException thrown = assertThrows(ValidatorException.class, () -> notaService.add(params), "Expected doThing() to throw, but it didn't");
+
+        assertEquals(sizeBefore, notaService.getSize());
+    }
+
+
+    @Test(expected = ValidatorException.class)
+    public void testStudentIdEmpty(){
+        ids = "";
+        String params[] ={id,ids,idt,val,data};
+        int sizeBefore = notaService.getSize();
+
+        ValidatorException thrown = assertThrows(ValidatorException.class, () -> notaService.add(params), "Expected doThing() to throw, but it didn't");
+
+        assertEquals(sizeBefore, notaService.getSize());
+    }
+
+    @Test(expected = ValidatorException.class)
+    public void testTemaLabIdLessThanZero(){
+        idt = "-10";
+        String params[] ={id,ids,idt,val,data};
+        int sizeBefore = notaService.getSize();
+
+        ValidatorException thrown = assertThrows(ValidatorException.class, () -> notaService.add(params), "Expected doThing() to throw, but it didn't");
+
+        assertEquals(sizeBefore, notaService.getSize());
+    }
+
+    @Test(expected = ValidatorException.class)
+    public void testValoareLessThanZero(){
+        val = "-100";
+        String params[] ={id,ids,idt,val,data};
+        int sizeBefore = notaService.getSize();
+
+        ValidatorException thrown = assertThrows(ValidatorException.class, () -> notaService.add(params), "Expected doThing() to throw, but it didn't");
+
+        assertEquals(sizeBefore, notaService.getSize());
+    }
+
+
+    @Test(expected = ValidatorException.class)
+    public void testValoareGreaterThanTen(){
+        val = "100";
         String params[] ={id,ids,idt,val,data};
         int sizeBefore = notaService.getSize();
 
