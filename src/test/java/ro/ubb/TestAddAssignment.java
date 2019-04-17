@@ -32,12 +32,24 @@ public class TestAddAssignment extends TestCase {
     }
 
     @Test
-    public void testId() throws ValidatorException {
+    public void testAdd() throws ValidatorException {
         String params[] ={id,ids,idt,val,data};
         int sizeBefore = notaService.getSize();
         notaService.add(params);
         int sizeAfter = sizeBefore + 1;
         assertEquals(sizeAfter, notaService.getSize());
+    }
+
+    @Test(expected = NumberFormatException.class)
+    public void testAddNull() throws NumberFormatException {
+        id = null;
+
+        String params[] ={id,ids,idt,val,data};
+        int sizeBefore = notaService.getSize();
+
+        NumberFormatException thrown = assertThrows(NumberFormatException.class, () -> notaService.add(params), "Expected doThing() to throw, but it didn't");
+
+        assertEquals(sizeBefore, notaService.getSize());
     }
 
     @Test(expected = ValidatorException.class)

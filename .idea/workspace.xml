@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54765d16-b35f-4581-8196-5dd5ef6f5e81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ro/ubb/TestIntegration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentiXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentiXML.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ro/ubb/TestAddAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ro/ubb/TestAddAssignment.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestIntegration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+            <state relative-caret-position="153">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestAddAssignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="133">
+              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,10 +205,10 @@
         <option value="$PROJECT_DIR$/src/main/java/ro/ubb/src/Repository/XMLFileRepository/AbstractXMLRepo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ro/ubb/TestAddStudent.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ro/ubb/TestAddAssignment.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/ubb/src/Validator/TemaLabValidator.java" />
         <option value="$PROJECT_DIR$/src/test/java/ro/ubb/TestTemaLab.java" />
         <option value="$PROJECT_DIR$/src/test/java/ro/ubb/TestIntegration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ro/ubb/TestAddAssignment.java" />
       </list>
     </option>
   </component>
@@ -436,7 +435,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555479309149" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555479779301" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -461,7 +460,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestIntegration">
+  <component name="RunManager" selected="JUnit.TestAddAssignment.testAddNull">
+    <configuration name="TestAddAssignment.testAddNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabAssiAsseProjectV03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.ubb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ro.ubb" />
+      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestAddAssignment" />
+      <option name="METHOD_NAME" value="testAddNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestIntegration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV03" />
       <extension name="coverage">
@@ -524,29 +539,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTemaLab.testSaptamanaPredariiGreater" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LabAssiAsseProjectV03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ro.ubb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ro.ubb" />
-      <option name="MAIN_CLASS_NAME" value="ro.ubb.TestTemaLab" />
-      <option name="METHOD_NAME" value="testSaptamanaPredariiGreater" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAddAssignment.testAddNull" />
         <item itemvalue="JUnit.TestIntegration" />
         <item itemvalue="JUnit.TestIntegration.testMethods" />
         <item itemvalue="JUnit.TestIntegration.testAddAssignment" />
         <item itemvalue="JUnit.TestTemaLab" />
-        <item itemvalue="JUnit.TestTemaLab.testSaptamanaPredariiGreater" />
       </list>
     </recent_temporary>
   </component>
@@ -566,7 +565,7 @@
       <workItem from="1555431175502" duration="2191000" />
       <workItem from="1555433446825" duration="72000" />
       <workItem from="1555443106427" duration="2250000" />
-      <workItem from="1555478389590" duration="896000" />
+      <workItem from="1555478389590" duration="1320000" />
     </task>
     <task id="LOCAL-00001" summary="update conf">
       <created>1554273604748</created>
@@ -603,16 +602,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555433284506</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add integration tests">
+      <created>1555479338659</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555479338660</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTemaLab_testDEscriptionEmpty - 2019.04.16 at 22h 55m 54s.xml">
-      <configuration name="TestTemaLab.testDEscriptionEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTemaLab_testDEscriptionEmpty - 2019.04.16 at 22h 56m 25s.xml">
-      <configuration name="TestTemaLab.testDEscriptionEmpty" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestTemaLab_testDEscriptionNull - 2019.04.16 at 22h 56m 46s.xml">
       <configuration name="TestTemaLab.testDEscriptionNull" configurationId="JUnit" />
     </history-entry>
@@ -637,9 +637,15 @@
     <history-entry file="TestIntegration_testAddAssignment - 2019.04.17 at 08h 31m 28s.xml">
       <configuration name="TestIntegration.testAddAssignment" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestIntegration_testMethods - 2019.04.17 at 08h 35m 01s.xml">
+      <configuration name="TestIntegration.testMethods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIntegration - 2019.04.17 at 08h 35m 13s.xml">
+      <configuration name="TestIntegration" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25317000" />
+    <option name="totallyTimeSpent" value="25741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -655,13 +661,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3696884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2592068" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21388102" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.21388102" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.19971672" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -686,7 +692,8 @@
     <MESSAGE value="update conf" />
     <MESSAGE value="1.8" />
     <MESSAGE value="Add tests for add nota" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tests for add nota" />
+    <MESSAGE value="Add integration tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add integration tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LabAssiAsseProjectV03.iml">
@@ -1003,16 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestAddAssignment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestTemaLab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1025,8 +1022,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestIntegration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+        <state relative-caret-position="153">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ubb/TestAddAssignment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
